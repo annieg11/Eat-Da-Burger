@@ -6,7 +6,7 @@ body{
   color:black;
 }
 #heading{
-  background-color:peachpuff;
+  background-color:lightgrey;
 }
 .jumbotron {
   background-image:url("https://thumbs.dreamstime.com/z/fast-food-seamless-pattern-design-burger-chips-soda-drinks-37377414.jpg");
@@ -31,7 +31,7 @@ body{
   color:white;
 }
 .lead{
-  background-color:lightgreen;
+  background-color:lightblue;
   color:black;
   text-align: center;
  
@@ -43,7 +43,7 @@ body{
   text-align: center;
 }
 .new{
-  background-color:lightblue;
+  background-color:lightgreen;
   color:black;
   text-align: center;
 }
