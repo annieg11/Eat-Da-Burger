@@ -15,7 +15,7 @@
               <p class="lead"> {{this.burger_name}} </p>
                 <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
                   <input type="hidden" name="devoured" value="true">
-                  <button class="btn btn-default btn-lg" type="submit" id ="dev-btn"> DEVOUR IT! </button>
+                  <button class="btn btn-default btn-lg" type="submit" id ="dev-btn"> DEVOUR IT </button>
                 </form>
           </li>
           {{/unless}}
@@ -33,7 +33,7 @@
             <form action="burgers/delete/{{this.id}}?_method=DELETE" method="POST">
             <!-- option 2, pass in the id of the cat inside the form - you would access this in the route using req.body.id not req.params.id -->
             <!-- <input type="hidden" name="id" value="{{this.id}}"> -->
-            <button class="btn btn-default btn-lg" id="del" type="submit">DELETE!</button>
+            <button class="btn btn-default btn-lg" id="del" type="submit">DELETE</button>
             </form>
           </li>
           {{/if}}
