@@ -12,13 +12,11 @@
         {{#each burgers}}
           {{#unless this.devoured}}
           <li>
-            <div class="form-group">
               <p class="lead"> {{this.burger_name}} </p>
                 <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
                   <input type="hidden" name="devoured" value="true">
-                  <button class="btn btn-default btn-lg" type="submit" id ="dev-Btn"> DEVOUR IT! </button>
+                  <button class="btn btn-default btn-lg" type="submit" id ="dev-btn"> DEVOUR IT! </button>
                 </form>
-            </div>
           </li>
           {{/unless}}
         {{/each}}
